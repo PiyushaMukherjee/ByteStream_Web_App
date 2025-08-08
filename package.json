@@ -1,0 +1,21 @@
+{
+  "name": "bytestream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "<h1 align=\"center\">✨ Fullstack Chat & Video Calling App ✨</h1>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiyushaMukherjee/ByteStream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PiyushaMukherjee/ByteStream/issues"
+  },
+  "homepage": "https://github.com/PiyushaMukherjee/ByteStream#readme"
+}
